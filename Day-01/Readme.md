@@ -184,6 +184,6 @@ export default App;
 
 ```
 🛠️ Development Tools
--> VS Code for coding
--> Android Emulator / iOS Simulator for previewing
--> React Native Debugger, Flipper for debugging
+* VS Code for coding
+* Android Emulator / iOS Simulator for previewing
+* React Native Debugger, Flipper for debugging
