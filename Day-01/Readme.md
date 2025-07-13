@@ -73,7 +73,7 @@ npm -v
 
 ### 2. Install Expo CLI
 ```bash
-npm install -g expo-cli
+npx create-expo-app@latest --template blank
 ```
 
 Verify installation:
@@ -84,7 +84,7 @@ expo --version
 
 ### 3. Install React Native CLI
 ```bash
-npm install -g react-native-cli
+npx @react-native-community/cli@latest init AwesomeProject
 ```
 
 ### 4. Install Android Studio or Xcode
