@@ -96,7 +96,7 @@ Xcode (Mac only): Required for iOS simulator
 🚀 Create Your First Project
 ✅ 1. Using Expo CLI
 ```bash
-npx create-expo-app MyFirstExpoApp
+npx create-expo-app@latest --template blank
 cd MyFirstExpoApp
 npm start
 ```
@@ -108,10 +108,14 @@ This will launch the Metro bundler. You can scan the QR code using the Expo Go a
 ```go
 
 MyFirstExpoApp/
-├── App.js
-├── package.json
-├── node_modules/
+├── assets/
+📄.gitignore
 📄 App.js
+📄 app.json
+📄 index.js
+package-lock.json
+package.json
+
 
 ```
 
@@ -142,7 +146,7 @@ const styles = StyleSheet.create({
 
 ```bash
 
-npx react-native init MyFirstRNApp
+npx @react-native-community/cli@latest init AwesomeProject
 cd MyFirstRNApp
 npx react-native run-android # for Android
 npx react-native run-ios     # for iOS (macOS only)
@@ -150,13 +154,19 @@ npx react-native run-ios     # for iOS (macOS only)
 ```
 📂 Project Structure (React Native CLI)
 ```go
-MyFirstRNApp/
+AwesomeProject/
+├── __tests__/
 ├── android/
 ├── ios/
-├── App.js
-├── package.json
-├── node_modules/
-📄 App.js
+├── .bundle/
+.eslintrc.js
+.prettierrc.js
+app.json
+📄 App.tsx
+babel.config.js
+📄 index.js
+Many more ..
+
 
 ```
 ```js
