@@ -100,6 +100,7 @@ Create a counter that increments and decrements the value using buttons.
 
 #### 📦 Code:
 - [x] Task-1 : ([code](./CounterApp.jsx))
+![Task - 1 Screenshot](./Task-1.png)
 ---
 
 ### ✅ Task 2: Create a Weather Card using Props
@@ -109,6 +110,8 @@ Create a counter that increments and decrements the value using buttons.
 Build a reusable weather card component that receives data via props.
 #### 📦 Code :
 - [x] Task 2 – ([code](./WeatherData.jsx))
+![Task - 2 Screenshot](./Task-2.png)
+---
 
 ### 📦 Usage in `App.js`:
 ```jsx
