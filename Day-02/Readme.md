@@ -99,7 +99,7 @@ useEffect(() => {
 Create a counter that increments and decrements the value using buttons.
 
 #### 📦 Code:
-
+- [x] Task-1 : ([code](./CounterApp.jsx))
 ---
 
 ### ✅ Task 2: Create a Weather Card using Props
@@ -107,6 +107,8 @@ Create a counter that increments and decrements the value using buttons.
 #### 🎯 Goal:
 
 Build a reusable weather card component that receives data via props.
+#### 📦 Code :
+- [x] Task 2 – ([code](./WeatherData.jsx))
 
 ### 📦 Usage in `App.js`:
 ```jsx
@@ -151,3 +153,4 @@ const styles = StyleSheet.create({
 
 ---
 
+Happy Coding 🚀
