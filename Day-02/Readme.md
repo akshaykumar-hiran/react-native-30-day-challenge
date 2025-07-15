@@ -16,7 +16,6 @@ JSX is a syntax extension for JavaScript used in React and React Native to descr
 ```jsx
 <Text>{name}</Text>
 ```
-````
 
 ---
 
@@ -109,11 +108,7 @@ Create a counter that increments and decrements the value using buttons.
 
 Build a reusable weather card component that receives data via props.
 
-
-```
-
-#### 📦 Usage in `App.js`:
-
+### 📦 Usage in `App.js`:
 ```jsx
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
@@ -143,8 +138,6 @@ const styles = StyleSheet.create({
 });
 
 ```
-
----
 
 ## ✅ Summary
 
