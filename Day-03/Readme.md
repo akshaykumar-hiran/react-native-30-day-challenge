@@ -1,13 +1,8 @@
-Sure! Here's a complete `README.md` file for your project that demonstrates **React Navigation using Stack + Bottom Tabs**, including setup, code structure, explanation, and usage instructions.
-
----
-
-```markdown
-# 🚀 React Native Navigation: Stack + Bottom Tabs Example
+## 🚀 React Native Navigation: Stack + Bottom Tabs Example
 
 This project demonstrates how to implement navigation in a **React Native app** using **React Navigation** with **Stack Navigator** and **Bottom Tabs Navigator**.
 
----
+```markdown
 
 ## 📦 Libraries Used
 
@@ -21,30 +16,29 @@ This project demonstrates how to implement navigation in a **React Native app** 
 - `react-native-vector-icons`
 - `react-native-svg`
 
----
+```
 
 ## 📁 Project Structure
 
-```
+```markdown
 
 /navigation
-└── RootNavigator.js        # Stack Navigator (main)
-└── TabNavigator.js         # Bottom Tab Navigator
+└── StackNavigator.js        # Stack Navigator (main)
+└── BottomTabs.js         # Bottom Tab Navigator
 
 /screens
 └── HomeScreen.js           # Screen in Tab
 └── ProfileScreen.js        # Screen in Tab
-└── DetailsScreen.js        # Screen in Stack (outside Tab)
+└── SettingsScreen.js        # Screen in Stack (outside Tab)
 
 App.js                        # Entry Point
 
-````
-
----
+```
 
 ## 🛠️ Installation & Setup
 
 ### 1. Install React Navigation Core
+
 ```bash
 npm install @react-navigation/native
 ````
@@ -92,13 +86,13 @@ npm install @react-navigation/native-stack @react-navigation/bottom-tabs
 
 ### 🏠 HomeScreen (`/Home`)
 
-* Contains a button to navigate to **Details** screen.
+* Contains a button to navigate to **Home** screen.
 
 ### 👤 ProfileScreen (`/Profile`)
 
 * Simple profile display.
 
-### 📋 DetailsScreen
+### 📋 SettingsScreen
 
 * Accessed via stack navigation from Home.
 
@@ -106,16 +100,15 @@ npm install @react-navigation/native-stack @react-navigation/bottom-tabs
 
 ## 🔄 How Navigation Works
 
-* The root navigator (`RootNavigator.js`) defines a `Stack.Navigator`.
+* The root navigator (`StackNavigator.js`) defines a `Stack.Navigator`.
 * It includes:
 
   * A `Main` screen → which holds the `TabNavigator`.
-  * A `Details` screen → outside the tab.
 
 ### Example Navigation Call:
 
 ```js
-navigation.navigate('Details')
+navigation.navigate('Settings')
 ```
 
 ---
@@ -148,8 +141,7 @@ navigation.navigate('Details')
 ```
 App
  └── Stack.Navigator
-      ├── TabNavigator (Home, Profile)
-      └── DetailsScreen
+      ├── TabNavigator (Home, Profile,Settings)
 ```
 
 ---
